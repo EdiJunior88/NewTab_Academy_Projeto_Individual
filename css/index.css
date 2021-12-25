@@ -1,9 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 * {
   padding: 0px;
   margin: 0px;
   font-family: 'Lato', sans-serif;
+  border: none;
 }
 
 header {
@@ -20,7 +22,8 @@ header {
   height: auto;
   display: flex;
   justify-content: center;
-  border: 1px solid #000;
+  border-radius: 4px;
+  border: 1px solid #979797;
 }
 
 .container_form form {
@@ -33,15 +36,49 @@ header {
   margin-top: 21px;
 }
 
-.container_form form button {
-  margin: 20px 0px 21px 0px;
+.container_form form select {
+  color: #888888;
 }
 
-.container_form p {
-  text-align: center;
+.container_form form label, select {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.container_form form select, input {
+  width: 370px;
+  height: 28px;
+  border-radius: 4px;
+  border: 1px solid #000;
+}
+
+.container_form form p {
   font-weight: 700;
+  font-style: normal;
   font-size: 18px;
   line-height: 22px;
+  text-align: center;
+}
+
+.container_form select option {
+  left: 10px;
+}
+
+.container_form form input::placeholder {
+  text-indent: 5px;
+}
+
+.container_form form button {
+  margin: 20px 0px 21px 0px;
+  width: 370px;
+  height: 32px;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  background: #333333;
+  border-radius: 4px;
+  font-family: 'Inter', sans-serif;
 }
 
 .container_form label, button {
