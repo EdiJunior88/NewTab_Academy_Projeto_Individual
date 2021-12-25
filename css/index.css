@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Lato', sans-serif;
+}
+
+header {
+  background: #E0E0E0;
+}
+
+.container_section {
+  width: 100%;
+  height: auto;
+}
+
+.container_form {
+  width: 400px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #000;
+}
+
+.container_form form {
+  width: 93%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container_form form p, label {
+  margin-top: 21px;
+}
+
+.container_form form button {
+  margin: 20px 0px 21px 0px;
+}
+
+.container_form p {
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.container_form label, button {
+  display: flex;
+  flex-direction: column;
+}
