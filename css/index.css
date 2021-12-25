@@ -21,6 +21,7 @@ header .titulo_menu,
 .links_menu {
   display: inherit;
   flex-direction: row;
+  align-items: center;
 }
 
 header .links_menu {
@@ -29,12 +30,28 @@ header .links_menu {
   align-content: center;
 }
 
+.titulo_menu .imagem_menu {
+  width: 40px;
+  height: 37px;
+  padding-right: 20px;
+}
+
+.titulo_menu h1 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #333;
+}
+
 .links_menu li, a {
   text-decoration: none;
   list-style: none;
-  color: #000;
+  color: #333;
   display: flex;
   align-items: center;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 600;
 }
 
 .links_menu a {
