@@ -9,7 +9,47 @@
 }
 
 header {
+  width: 100%;
+  height: 80px;
   background: #E0E0E0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header .titulo_menu,
+.links_menu {
+  display: inherit;
+  flex-direction: row;
+}
+
+header .links_menu {
+  height: 40px;
+  background: #fff;
+  align-content: center;
+}
+
+.links_menu li, a {
+  text-decoration: none;
+  list-style: none;
+  color: #000;
+  display: flex;
+  align-items: center;
+}
+
+.links_menu a {
+  border-left: 1px solid #000;
+  padding-left: 20px;
+}
+
+.links_menu li:first-child a {
+  border-left: none;
+}
+
+.links_menu li:nth-child(1),
+.links_menu li:nth-child(2),
+.links_menu li:nth-child(3) {
+  padding-right: 20px;
 }
 
 .container_section {
