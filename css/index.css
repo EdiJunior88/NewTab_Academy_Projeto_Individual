@@ -159,3 +159,25 @@ section {
 }
 
 /* Tabela Extrato de Transações */
+
+.container_extrato {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.container_extrato p {
+  text-align: center;
+}
+
+.container_extrato table {
+  width: 680px;
+}
+
+.container_extrato table tr th {
+  border-bottom: 1px solid #000;
+  border-collapse: collapse;
+}
+
