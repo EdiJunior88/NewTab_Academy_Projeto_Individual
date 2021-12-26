@@ -82,12 +82,12 @@ section {
 
 /* Formulário Nova Transação */
 
-.container_section {
+/* .container_section {
   width: 100%;
   height: auto;
   display: flex;
   justify-content: center;
-}
+} */
 
 .container_form {
   width: 400px;
