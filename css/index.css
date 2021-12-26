@@ -162,22 +162,67 @@ section {
 
 .container_extrato {
   display: flex;
-  align-items: center;
   flex-direction: column;
   align-content: center;
   justify-content: center;
+  text-align: left;
+  width: 680px;
+  height: 281px;
 }
 
 .container_extrato p {
   text-align: center;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 700;
 }
 
 .container_extrato table {
-  width: 680px;
+  font-size: 14px;
+  line-height: 22px;
 }
 
-.container_extrato table tr th {
-  border-bottom: 1px solid #000;
+.container_extrato table td:nth-child(1){
+  width: 0px;
+  padding-left: 20px;
+  padding-right: 11px;
+  background: red;
+  text-align: right;
+}
+
+.container_extrato table td:nth-child(2){
+  width: 231pxpx;
+  background: yellow;
+}
+
+.container_extrato table td:nth-child(3){
+  width: 291px;
+  background: green;
+}
+
+.container_extrato table td:nth-child(4){
+  width: 98px;
+  padding-right: 20px;
+  background: red;
+  text-align: right;
+}
+
+.container_extrato table th:nth-child(4) {
+  padding-right: 20px;
+  text-align: right;
+  background: grey;
+}
+
+.container_extrato table tfoot tr+tr {
+  line-height: 12px;
+}
+
+.container_extrato table .foot_td_4 {
+  font-size: 10px;
+}
+
+.container_extrato table, th, td{
   border-collapse: collapse;
+  border-bottom: 1px solid #000;
 }
 
