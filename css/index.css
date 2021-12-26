@@ -73,21 +73,14 @@ header .links_menu {
 
 /* Section do formulário e da tabela */
 
-section {
+.container_section {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   margin-top: 30px;
 }
 
 /* Formulário Nova Transação */
-
-/* .container_section {
-  width: 100%;
-  height: auto;
-  display: flex;
-  justify-content: center;
-} */
 
 .container_form {
   width: 400px;
@@ -164,10 +157,11 @@ section {
   display: flex;
   flex-direction: column;
   align-content: center;
-  justify-content: center;
+  justify-content: flex-start;
   text-align: left;
   width: 680px;
   height: 281px;
+  padding-left: 20px;
 }
 
 .container_extrato p {
@@ -180,6 +174,7 @@ section {
 .container_extrato table {
   font-size: 14px;
   line-height: 22px;
+  height: 147px;
 }
 
 .container_extrato table td:nth-child(1){
