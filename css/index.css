@@ -240,7 +240,7 @@ header .links_menu {
   border-bottom: 1px solid black;
 }
 
-/* Linha Duplicada Tfoot Tabela */
+/* Linha Duplicada tbody Tabela */
 
 .container_extrato .tbody_tr_linha_duplicada td {
   height: 0px;
