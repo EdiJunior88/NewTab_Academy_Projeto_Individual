@@ -169,9 +169,10 @@ header .links_menu {
   padding: 7px 0px;
 }
 
-.container_extrato .linha_duplicada td {
+.container_extrato .tbody_tr_linha_duplicada td {
   height: 0px;
   padding: 0.5px;
+  border-bottom: 1px solid #000;
 }
 
 .container_extrato p {
@@ -222,8 +223,21 @@ header .links_menu {
   font-size: 10px;
 }
 
+/* Cores, borda e collapse da tabela*/
+
 .container_extrato table, th, td{
   border-collapse: collapse;
-  border-bottom: 1px solid #000;
 }
+
+.container_extrato .thead_tr_01 {
+  border-bottom: 1px solid black;
+}
+
+.container_extrato .tbody_tr_01,
+.container_extrato .tbody_tr_02,
+.container_extrato .tbody_tr_03 {
+  border-bottom: 1px solid black;
+}
+
+
 
