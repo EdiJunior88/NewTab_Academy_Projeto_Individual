@@ -12,7 +12,7 @@
     <div class="imagem_menu">
       <img class="imagem" src="img/logo.svg" alt="Logo Controle Financeiro">
     </div>
-    
+
     <div class="titulo_menu">
       <h1>Controle Financeiro</h1>
     </div>
@@ -27,19 +27,19 @@
   <section class="container_section">
       <div class="container_form">
         <form>
-          <p>Nova Transação</p>
+          <p class="container_form_titulo">Nova Transação</p>
 
-          <label for="transacao">Tipo de Transação</label>
+          <label class="container_form_label_transacao" for="transacao">Tipo de Transação</label>
 
           <select name="transacao" id="transacao">
             <option value="compra">Compra</option>
             <option value="venda">Venda</option>
           </select>
 
-          <label for="mercadoria">Nome da Mercadoria</label>
+          <label class="container_form_label_mercadoria" for="mercadoria">Nome da Mercadoria</label>
           <input type="text" name="mercadoria" id="mercadoria" placeholder="input">
 
-          <label for="valor">Valor</label>
+          <label class="container_form_label_valor" for="valor">Valor</label>
           <input type="text" name="valor" id="valor" placeholder="R$ 0,00">
 
           <button type="submit">Adicionar transação</button>

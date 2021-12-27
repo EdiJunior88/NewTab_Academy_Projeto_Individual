@@ -319,4 +319,69 @@ footer {
     height: 24px;
     margin-left: 0px;
   }
+
+  .container_section {
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 932px;
+    margin-top: 20px;
+  }
+
+  .container_form {
+    width: 728px;
+    height: 189px;
+  }
+
+  /* Redesenhando o formulário */
+
+  .container_form form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+
+  .container_form form select {
+    width: 150px;
+  }
+
+  .container_form form button {
+    width: 200px;
+    height: 32px;
+    grid-row: 5;
+    grid-column: 4;
+  }
+
+  .container_form_label_transacao {
+    grid-row: 2;
+    grid-column: 1;
+  }
+
+  .container_form_label_mercadoria {
+    grid-row: 2;
+    grid-column: 3;
+  }
+
+  .container_form_label_valor {
+    grid-row: 2;
+    grid-column: 4;
+  }
+
+  #transacao {
+    grid-row: 3;
+    grid-column: 1;
+  }
+
+  #mercadoria {
+    width: 348px;
+    grid-row: 3;
+    grid-column: 3;
+  }
+
+  #valor {
+    width: 150px;
+    grid-row: 3;
+    grid-column: 4;
+  }
+
 }
