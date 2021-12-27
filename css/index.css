@@ -92,7 +92,7 @@ header .links_menu {
 }
 
 .container_form form {
-  width: 93%;
+  width: 92.5%;
   display: flex;
   flex-direction: column;
 }
@@ -159,7 +159,7 @@ header .links_menu {
   align-content: center;
   justify-content: flex-start;
   text-align: left;
-  width: 680px;
+  width: 652px;
   height: 281px;
   padding-left: 20px;
 }
@@ -167,12 +167,6 @@ header .links_menu {
 .container_extrato tbody tr td {
   height: 18px;
   padding: 7px 0px;
-}
-
-.container_extrato .tbody_tr_linha_duplicada td {
-  height: 0px;
-  padding: 0.5px;
-  border-bottom: 1px solid #000;
 }
 
 .container_extrato p {
@@ -208,6 +202,7 @@ header .links_menu {
   width: 98px;
   padding-right: 20px;
   text-align: right;
+  vertical-align: top;
 }
 
 .container_extrato table th:nth-child(4) {
@@ -219,8 +214,14 @@ header .links_menu {
   line-height: 12px;
 }
 
-.container_extrato table .foot_td_4 {
+.container_extrato table .tfoot_td_04 {
   font-size: 10px;
+}
+
+.container_extrato .tfoot_tr_01 td {
+  padding-top: 11px;
+  font-weight: 700;
+  line-height: 16px;
 }
 
 /* Cores, borda e collapse da tabela*/
@@ -239,5 +240,12 @@ header .links_menu {
   border-bottom: 1px solid black;
 }
 
+/* Linha Duplicada Tfoot Tabela */
+
+.container_extrato .tbody_tr_linha_duplicada td {
+  height: 0px;
+  padding: 1px;
+  border-bottom: 1px solid #000;
+}
 
 
