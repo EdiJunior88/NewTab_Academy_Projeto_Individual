@@ -164,8 +164,19 @@ header .links_menu {
   padding-left: 20px;
 }
 
+.container_extrato tbody tr td {
+  height: 18px;
+  padding: 7px 0px;
+}
+
+.container_extrato .linha_duplicada td {
+  height: 0px;
+  padding: 0.5px;
+}
+
 .container_extrato p {
   text-align: center;
+  padding-top: 21px;
   margin-bottom: 20px;
   font-size: 18px;
   font-weight: 700;
@@ -181,31 +192,26 @@ header .links_menu {
   width: 0px;
   padding-left: 20px;
   padding-right: 11px;
-  background: red;
   text-align: right;
 }
 
 .container_extrato table td:nth-child(2){
-  width: 231pxpx;
-  background: yellow;
+  width: 231px;
 }
 
 .container_extrato table td:nth-child(3){
   width: 291px;
-  background: green;
 }
 
 .container_extrato table td:nth-child(4){
   width: 98px;
   padding-right: 20px;
-  background: red;
   text-align: right;
 }
 
 .container_extrato table th:nth-child(4) {
   padding-right: 20px;
   text-align: right;
-  background: grey;
 }
 
 .container_extrato table tfoot tr+tr {
