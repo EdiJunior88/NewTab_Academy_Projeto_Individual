@@ -295,20 +295,28 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+  
   header {
     justify-content: space-between;
   }
-  
+
   .titulo_menu {
-    justify-content: flex-start;
+    justify-content: center;
+    width: 411px;
   }
   
-  .imagem_menu {
-    justify-content: start;
+  .imagem {
+    justify-content: center;
+    width: 30px;
+    height: 27px;
   }
 
   .links_menu {
     content: url('../img/mobile-menu.svg');
     background: transparent;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    margin-left: 0px;
   }
 }
