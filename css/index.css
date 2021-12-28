@@ -9,11 +9,14 @@
   font-family: 'Lato', sans-serif;
 }
 
+body {
+  height: 639px;
+}
+
 header {
   width: 100%;
   height: auto;
 }
-
 
 .container_header {
   background: #E0E0E0;
