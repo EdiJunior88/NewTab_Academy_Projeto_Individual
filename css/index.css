@@ -68,7 +68,8 @@ header {
 }
 
 .container_section_texto {
-  width: 100%;
+  width: 90.5%;
+  margin-bottom: 10px;
   display: flex;
   justify-content: flex-start;
 }
@@ -83,4 +84,15 @@ header {
 
 .container_section_texto:nth-child(5) {
   padding-top: 20px;
+}
+
+.container_section_botao .button {
+  width: 371px;
+  height: 32px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  background: #333;
+  color: white;
+  border-radius: 4px;
 }
