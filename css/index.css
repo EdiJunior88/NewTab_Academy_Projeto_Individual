@@ -10,12 +10,15 @@
 }
 
 body {
-  height: 639px;
+  width: 411px;
+  height: 731px;
 }
 
 header {
   width: 100%;
   height: auto;
+  display: flex;
+  justify-content: center;
 }
 
 .container_header {
@@ -34,3 +37,50 @@ header {
   font-weight: 600;
 }
 
+.container_section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_section_select,
+.container_section_input {
+  display: flex;
+  border: 1px solid #979797;
+  width: 371px;
+  height: 32px;
+  border-radius: 4px;
+}
+
+.container_section_select #select {
+  width: 100%;
+  margin-left: 6px;
+}
+
+.container_section_input #mercadoria,
+.container_section_input #valor {
+  width: 100%;
+  padding-left: 12px;
+}
+
+.container_section_texto {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.container_section_texto:nth-child(1) {
+  padding-top: 26px;
+}
+
+.container_section_texto:nth-child(3) {
+  padding-top: 20px;
+}
+
+.container_section_texto:nth-child(5) {
+  padding-top: 20px;
+}
