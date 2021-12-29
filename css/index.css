@@ -111,3 +111,43 @@ header {
 }
 
 /* Container Section 2 (Extrato de transações) */
+
+.container_section_2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Container da tabela (div) header, body e footer */
+
+.container_section_2_header {
+  display: flex;
+  flex-direction: row;
+}
+
+.container_section_2_body,
+.container_section_2_body_2,
+.container_section_2_body_3 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+  font-size: 14px;
+}
+
+.body_simbolo1 {
+  width: 9px;
+  height: 25.35px;
+}
+
+.body_texto1 {
+  width: 231px;
+  height: 34px;
+}
+
+.body_valor1 {
+  width: 98px;
+  height: 41.86px;
+}
