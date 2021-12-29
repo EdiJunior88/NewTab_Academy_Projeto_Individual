@@ -37,6 +37,8 @@ header {
   font-weight: 600;
 }
 
+/* Container Section (fomrulários e botão) */
+
 .container_section {
   width: 100%;
   height: auto;
@@ -96,3 +98,16 @@ header {
   color: white;
   border-radius: 4px;
 }
+
+/* Linha para dividir a página */
+
+.linha_horizontal {
+  width: 371px;
+  border: 1px solid #979797;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 28.56px;
+  margin-bottom: 20px;
+}
+
+/* Container Section 2 (Extrato de transações) */
