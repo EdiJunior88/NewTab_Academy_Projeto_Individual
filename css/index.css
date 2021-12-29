@@ -198,7 +198,7 @@ header {
   margin-top: 7px;
 }
 
-/* Linha para dividir a página */
+/* Linha para dividir a as divs da tabela body, head e footer */
 
 .linha_horizontal_section_2 {
   width: 371px;
