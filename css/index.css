@@ -12,7 +12,7 @@
 body {
   margin: 0 auto;
   width: 411px;
-  height: 731px;
+  height: 639px;
 }
 
 header {
@@ -115,6 +115,7 @@ header {
 
 .container_section_2 {
   width: 100%;
+  height: 281px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -209,4 +210,54 @@ header {
 
 .linha_horizontal_section_2:nth-child(10){
   margin-top: 1px;
+}
+
+.container_section_2_footer,
+.container_section_2_footer_2 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 371px;
+  font-size: 14px;
+}
+
+.container_section_2_footer {
+  margin-top: 11px;
+  font-weight: 700;
+}
+
+.container_section_2_footer_2 {
+  width: 371px;
+  justify-content: flex-end;
+}
+
+.footer_texto {
+  width: 72px;
+  height: 18px;
+  margin-left: 25px;
+}
+
+.footer_valor {
+  width: 98px;
+  height: 18px;
+  text-align: end;
+  margin-right: 6px;
+}
+
+.footer_texto_descricao {
+  margin-right: 6px;
+  font-size: 10px;
+}
+
+/* Linha horizontal footer da página*/
+
+.linha_horizontal_footer {
+  width: 100%;
+  height: 8px;
+  border: 1px solid #333;
+  background: #333;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
