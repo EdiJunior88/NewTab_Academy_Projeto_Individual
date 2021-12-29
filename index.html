@@ -9,7 +9,7 @@
 </head>
 <body>
   <header>
-    <nav class="container_header">
+    <div class="container_header">
       <div class="container_header_imagem">
         <img class="header_imagem" src="img/logo.svg" alt="Logo">
       </div>
@@ -21,24 +21,28 @@
       <!-- <div class="container_header_menu">
         <img class="header_menu" src="img/mobile-menu.svg" alt="Menu">
       </div> -->
-    </nav>
+
+      <!-- Menu Lateral Hamburguer -->
+      
+      <div class="container_header_menu">
+        <input type="checkbox" id="chec">
+        <label class="nav_menu_label" for="chec">
+          <img src="img/mobile-menu.svg" alt="Menu">
+        </label>
+        <nav class="container_nav_menu">
+          <ul>
+            <li><a href="#">Resumo</a></li>
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">Configurações</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
 
    
   </header>
 
-   <!-- Menu Lateral Hamburguer -->
-
-   <input type="checkbox" id="chec">
-   <label for="chec">
-     <img src="img/mobile-menu.svg" alt="Menu">
-   </label>
-   <div class="container_nav_menu">
-     <ul>
-       <li><a href="#">Resumo</a></li>
-       <li><a href="#">Dashboard</a></li>
-       <li><a href="#">Configurações</a></li>
-     </ul>
-   </div>
+   
 
   <section>
     <div class="container_section">

@@ -46,6 +46,10 @@ header {
   width: 350px;
   height: 100%;
   background: #333;
+  display: flex;
+  position: absolute;
+  left: -350px;
+  transition: all 0.5s;
 }
 
 .container_nav_menu a {
@@ -62,9 +66,25 @@ header {
   background: #C4C4C4;
 }
 
+.container_nav_menu ul {
+  position: absolute;
+  top: 62px;
+  width: 100%;
+}
+
+.nav_menu_label {
+  position: absolute;
+  z-index: 1;
+  top: 20px;
+  right: 10px;
+}
 
 input[type="checkbox"] {
   display: none;
+}
+
+input[type="checkbox"]:checked ~ nav {
+  transform: translateX(350px);
 }
 
 /* Container Section (fomrulários e botão) */
