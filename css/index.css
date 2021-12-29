@@ -119,11 +119,35 @@ header {
   align-items: center;
 }
 
+.container_section_2_titulo {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  padding-bottom: 19px;
+}
+
 /* Container da tabela (div) header, body e footer */
 
 .container_section_2_header {
+  width: 371px;
+  height: 22px;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+}
+
+.header_titulo1 {
+  margin-left: 25px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.header_titulo2 {
+  margin-right: 37px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
 }
 
 .container_section_2_body,
@@ -133,21 +157,55 @@ header {
   flex-flow: row wrap;
   justify-content: space-around;
   align-items: flex-start;
-  width: 100%;
+  width: 371px;
   font-size: 14px;
 }
 
-.body_simbolo1 {
+.body_simbolo1,
+.body_simbolo2,
+.body_simbolo3 {
   width: 9px;
   height: 25.35px;
+  margin-top: 7px;
 }
 
 .body_texto1 {
   width: 231px;
   height: 34px;
+  margin-top: 7px;
+}
+
+.body_texto2,
+.body_texto3 {
+  width: 231px;
+  height: 18px;
+  margin-top: 7px;
 }
 
 .body_valor1 {
   width: 98px;
   height: 41.86px;
+  text-align: end;
+  margin-top: 7px;
+}
+
+.body_valor2,
+.body_valor3 {
+  width: 98px;
+  height: 18px;
+  text-align: end;
+  margin-top: 7px;
+}
+
+/* Linha para dividir a página */
+
+.linha_horizontal_section_2 {
+  width: 371px;
+  border: 1px solid #979797;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.linha_horizontal_section_2:nth-child(10){
+  margin-top: 1px;
 }
