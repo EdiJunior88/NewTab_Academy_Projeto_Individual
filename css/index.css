@@ -43,13 +43,13 @@ header {
 /* Menu lateral Hamburguer */
 
 .container_nav_menu {
-  width: 350px;
+  width: 351px;
   height: 100%;
   background: #333;
-  display: flex;
   position: absolute;
-  left: -350px;
+  left: 411px;
   transition: all 0.5s;
+  margin-top: 10px;
 }
 
 .container_nav_menu a {
@@ -58,7 +58,10 @@ header {
   width: 351px;
   display: block;
   padding: 10px 0px;
-  margin-bottom: 7px;
+}
+
+.container_nav_menu li {
+  list-style: none;
 }
 
 .container_nav_menu a:hover {
@@ -67,7 +70,7 @@ header {
 }
 
 .container_nav_menu ul {
-  position: absolute;
+  position: relative;
   top: 62px;
   width: 100%;
 }
@@ -84,7 +87,7 @@ input[type="checkbox"] {
 }
 
 input[type="checkbox"]:checked ~ nav {
-  transform: translateX(350px);
+  transform: translateX(-351px);
 }
 
 /* Container Section (fomrulários e botão) */
