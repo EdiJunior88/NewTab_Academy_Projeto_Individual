@@ -11,7 +11,7 @@
   font-family: 'Lato', sans-serif;
 }
 
-body {
+html, body {
   margin: 0 auto;
   width: 411px;
   height: 639px;
@@ -43,13 +43,13 @@ header {
 /* Menu lateral Hamburguer */
 
 .container_nav_menu {
+  display: none;
   width: 351px;
   height: 730px;
   background: #333;
   position: absolute;
-  left: 411px;
   transition: all 0.5s;
-  margin-top: -31px;
+  margin-top: -46px;
 }
 
 .container_nav_menu a {
@@ -78,22 +78,21 @@ header {
 
 .container_nav_menu ul {
   position: relative;
-  top: 62px;
+  top: 20px;
 }
 
-.nav_menu_label {
-  position: absolute;
-  z-index: 1;
-  top: 20px;
-  right: 10px;
+.nav_menu_imagem {
+  margin-left: 20px;
+  margin-bottom: 26px;
 }
 
 input[type="checkbox"] {
   display: none;
 }
 
-input[type="checkbox"]:checked ~ nav {
-  transform: translateX(-351px);
+input[type="checkbox"]:checked ~ .container_nav_menu {
+  display: block;
+  transform: translateX(-295px);
 }
 
 /* Container Section (fomrulários e botão) */
@@ -120,6 +119,7 @@ input[type="checkbox"]:checked ~ nav {
 .container_section_select #select {
   width: 100%;
   margin-left: 6px;
+  background: none;
 }
 
 .container_section_input #mercadoria,
