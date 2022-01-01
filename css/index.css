@@ -442,7 +442,7 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
 
   .button {
     display: flex;
-    width: 220px;
+    width: 200px;
   }
 
   .linha_horizontal {
