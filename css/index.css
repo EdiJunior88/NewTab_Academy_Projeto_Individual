@@ -338,6 +338,7 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
 
   .container_header {
     width: 100%;
+    margin-bottom: 20px;
   }
 
   .container_section {
@@ -345,8 +346,8 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
     height: 189px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
-    margin-bottom: 23px;
+    /* margin-top: 20px; */
+    /* margin-bottom: 23px; */
     border: 1px solid #979797;
     border-radius: 4px;
     display: flex;
@@ -367,8 +368,6 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
     height: 20px;
     margin-left: 17px;
     margin-right: 17px;
-    margin-top: 20px;
-    margin-bottom: 21px;
   }
 
   .texto_nova_transacao::after {
@@ -420,7 +419,6 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
     justify-content: flex-end;
     width: 100%;
     margin-right: 17px;
-    margin-bottom: 20px;
     order: 7;
   }
 
@@ -435,6 +433,7 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
 
   .container_section_2 {
     width: 728px;
+    height: 289px;
     margin-top: 23px;
     margin-bottom: 419px;
     border: 1px solid #000;
@@ -452,6 +451,15 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
   .container_section_2_footer_2 {
     width: 100%;
     justify-content: start;
+  }
+
+  .header_titulo1 {
+    margin-left: 40px;
+    margin-right: 563px;
+  }
+
+  .header_titulo2 {
+    margin-right: 0px;
   }
 
   .body_simbolo1,
@@ -472,6 +480,18 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
   .body_valor2,
   .body_valor3 {
     margin-right: 20px;
+  }
+
+  .footer_texto {
+    margin-left: 40px;
+    margin-right: 498px;
+  }
+
+  .footer_texto_descricao {
+    width: 98px;
+    height: 18px;
+    margin-left: 610px;
+    text-align: right;
   }
 
   footer {
