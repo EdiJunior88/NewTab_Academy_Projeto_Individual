@@ -444,6 +444,36 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
     margin-top: 21px;
   }
 
+  .container_section_2_header,
+  .container_section_2_body,
+  .container_section_2_body_2,
+  .container_section_2_body_3, 
+  .container_section_2_footer, 
+  .container_section_2_footer_2 {
+    width: 100%;
+    justify-content: start;
+  }
+
+  .body_simbolo1,
+  .body_simbolo2,
+  .body_simbolo3 {
+    margin-left: 20px;
+    margin-right: 11px;
+  }
+
+  .body_texto1,
+  .body_texto2,
+  .body_texto3 {
+    justify-content: start;
+    margin-right: 339px;
+  }
+
+  .body_valor1,
+  .body_valor2,
+  .body_valor3 {
+    margin-right: 20px;
+  }
+
   footer {
     display: flex;
     width: 100%;
