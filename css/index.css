@@ -339,6 +339,24 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
   .container_header {
     width: 100%;
     margin-bottom: 20px;
+    justify-content: space-between;
+  }
+
+  .container_header_imagem {
+    margin-left: 22px;
+  }
+
+  .container_header_menu {
+    margin-right: 22px;
+  }
+
+  .container_nav_menu {
+    width: 252px;
+    height: 1024px;
+  }
+
+  input[type="checkbox"]:checked ~ .container_nav_menu {
+    transform: translateX(-205px);
   }
 
   .container_section {
