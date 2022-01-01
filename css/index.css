@@ -325,51 +325,60 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
 
 /* Media Querie (tablet Portrait) */
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   html, body {
     width: 768px;
     height: 1024px;
   }
 
   .container_header {
-    width: 768px;
+    width: 100%;
   }
 
   .container_section {
-    width: 728px;
+    width: 734px;
     height: 189px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 20px;
+    border: 1px solid #979797;
+    border-radius: 4px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-content: center;
   }
 
   .container_section_texto.texto_transacao {
     width: 150px;
+    height: 22px;
+    margin-left: 20px;
     order: 1;
   }
 
   .container_section_texto.texto_mercadoria {
     width: 348px;
+    height: 22px;
     order: 2;
   }
 
   .container_section_texto.texto_valor {
     width: 150px;
+    height: 22px;
+    margin-right: 20px;
     order: 3;
   }
 
   .container_section_select {
     width: 150px;
     margin-right: 20px;
+    margin-left: 20px;
     order: 4;
   }
 
-  .container_section_input {
+  .container_section_input.input_mercadoria {
     width: 348px;
     margin-right: 20px;
     order: 5;
@@ -377,15 +386,20 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
 
   .container_section_input.input_valor {
     width: 150px;
+    margin-right: 20px;
     order: 6;
   }
 
   .container_section_botao{
-    width: 200px;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-right: 20px;
     order: 7;
   }
 
   .button {
-    width: 100%;
+    display: flex;
+    width: 220px;
   }
 }
