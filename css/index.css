@@ -431,12 +431,15 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
     display: none;
   }
 
+  .linha_horizontal_section_2 {
+    width: 100%;
+  }
+
   .container_section_2 {
     width: 728px;
     height: 289px;
     margin-top: 23px;
     margin-bottom: 419px;
-    border: 1px solid #000;
   }
 
   .container_section_2_titulo {
