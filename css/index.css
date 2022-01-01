@@ -100,6 +100,7 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
 .container_section {
   width: 100%;
   height: auto;
+
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -130,6 +131,7 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
 
 .container_section_texto {
   width: 90.5%;
+  margin-top: 20px;
   margin-bottom: 10px;
   display: flex;
   justify-content: flex-start;
@@ -325,10 +327,13 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
 
 /* Media Querie (tablet Portrait) */
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   html, body {
-    width: 768px;
+    width: 100%;
     height: 1024px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .container_header {
@@ -336,25 +341,46 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
   }
 
   .container_section {
-    width: 734px;
+    width: 728px;
     height: 189px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
+    margin-bottom: 23px;
     border: 1px solid #979797;
     border-radius: 4px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     align-content: center;
+  }
+
+  .texto_nova_transacao {
+    order: -1;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20px;
+    margin-left: 17px;
+    margin-right: 17px;
+    margin-top: 20px;
+    margin-bottom: 21px;
+  }
+
+  .texto_nova_transacao::after {
+    content: "Nova Transação";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
   }
 
   .container_section_texto.texto_transacao {
     width: 150px;
     height: 22px;
-    margin-left: 20px;
     order: 1;
   }
 
@@ -367,39 +393,60 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
   .container_section_texto.texto_valor {
     width: 150px;
     height: 22px;
-    margin-right: 20px;
     order: 3;
   }
 
   .container_section_select {
     width: 150px;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-left: 17px;
     order: 4;
   }
 
   .container_section_input.input_mercadoria {
     width: 348px;
-    margin-right: 20px;
+    margin-left: 17px;
+    margin-right: 17px;
     order: 5;
   }
 
   .container_section_input.input_valor {
     width: 150px;
-    margin-right: 20px;
+    margin-right: 17px;
     order: 6;
   }
 
-  .container_section_botao{
+  .container_section_botao {
     display: flex;
     justify-content: flex-end;
     width: 100%;
-    margin-right: 20px;
+    margin-right: 17px;
+    margin-bottom: 20px;
     order: 7;
   }
 
   .button {
     display: flex;
     width: 220px;
+  }
+
+  .linha_horizontal {
+    display: none;
+  }
+
+  .container_section_2 {
+    width: 728px;
+    margin-top: 23px;
+    margin-bottom: 419px;
+    border: 1px solid #000;
+  }
+
+  .container_section_2_titulo {
+    margin-top: 21px;
+  }
+
+  footer {
+    display: flex;
+    width: 100%;
+    height: 8px;
   }
 }
