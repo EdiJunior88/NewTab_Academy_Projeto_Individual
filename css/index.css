@@ -147,7 +147,7 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
   padding-top: 20px;
 }
 
-.container_section_botao .button {
+.button {
   width: 371px;
   height: 32px;
   margin-top: 20px;
@@ -321,4 +321,71 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* Media Querie (tablet Portrait) */
+
+@media screen and (min-width: 768px) {
+  html, body {
+    width: 768px;
+    height: 1024px;
+  }
+
+  .container_header {
+    width: 768px;
+  }
+
+  .container_section {
+    width: 728px;
+    height: 189px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: center;
+  }
+
+  .container_section_texto.texto_transacao {
+    width: 150px;
+    order: 1;
+  }
+
+  .container_section_texto.texto_mercadoria {
+    width: 348px;
+    order: 2;
+  }
+
+  .container_section_texto.texto_valor {
+    width: 150px;
+    order: 3;
+  }
+
+  .container_section_select {
+    width: 150px;
+    margin-right: 20px;
+    order: 4;
+  }
+
+  .container_section_input {
+    width: 348px;
+    margin-right: 20px;
+    order: 5;
+  }
+
+  .container_section_input.input_valor {
+    width: 150px;
+    order: 6;
+  }
+
+  .container_section_botao{
+    width: 200px;
+    order: 7;
+  }
+
+  .button {
+    width: 100%;
+  }
 }
