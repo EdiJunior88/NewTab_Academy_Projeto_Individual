@@ -553,7 +553,7 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
   }
 
   .container_header {
-    justify-content: flex-start;
+    justify-content: center;
     height: 80px;
   }
 
