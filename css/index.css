@@ -614,7 +614,7 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
     margin: 0px;
   }
 
-  /* ||||||||||||||||||||||||||||||||||||||||||||| */
+  /* ---------------------------------------------- */
 
   .container_section {
     width: 400px;
@@ -733,5 +733,28 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
 
   .footer_texto_descricao {
     margin-left: 534px;
+  }
+}
+
+/*######### Media Querie (Desktop) ##########*/
+
+@media screen and (min-width: 1500px) {
+  html, body {
+    width: 100%;
+    height: 100%;
+  }
+
+  .container_header {
+    justify-content: center;
+  }
+
+  .container_section_2 {
+    height: 281px;
+    margin-top: 0px;
+    margin-bottom: 609px;
+  }
+
+  .linha_horizontal_footer {
+    margin: 0px;
   }
 }
