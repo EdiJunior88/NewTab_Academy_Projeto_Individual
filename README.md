@@ -75,24 +75,37 @@ Seu objetivo é criar uma SPA (Single Page Application) seguindo o layout que es
   <li>A largura máxima do conteúdo é 1100px.</li>
 </ul>
 
-JavaScript (isso será feito no próximo módulo):
+<strong>JavaScript (isso será feito no próximo módulo):</strong>
 
-Validar o formulário para que todos os campos sejam preenchidos.
-Adicionar uma máscara no campo “Valor” para que apenas números sejam preenchidos e com a formatação correta. (Padrão: 10,90)
-Ao adicionar uma nova transação, persistir no Local Storage e já atualizar a lista com o extrato. Atualizar também o cálculo apresentado.
-Ao clicar no link “Limpar dados”, apresentar uma mensagem de confirmação e em seguida apagar as informações, atualizando a lista.
-Divisão de atividades
-HTML e CSS:
+<ul>
+  <li>Validar o formulário para que todos os campos sejam preenchidos.</li>
+  <li>Adicionar uma máscara no campo “Valor” para que apenas números sejam preenchidos e com a formatação correta. (Padrão: 10,90)</li>
+  <li>Ao adicionar uma nova transação, persistir no Local Storage e já atualizar a lista com o extrato. Atualizar também o cálculo apresentado.</li>
+  <li>Ao clicar no link “Limpar dados”, apresentar uma mensagem de confirmação e em seguida apagar as informações, atualizando a lista.</li>
+</ul>
 
-ATIVIDADE 1 – HTML/CSS:
-Desenvolvimento completo do HTML
-Início do desenvolvimento do CSS (versão mobile)
-ATIVIDADE 2 – HTML/CSS:
-Desenvolvimento completo do CSS (versão responsiva)
-Javascript (reforçando, isso será feito no próximo módulo):
+<h4>Divisão de atividades</h4>
+
+<strong>HTML e CSS:</strong>
+
+<ul>
+  <li>ATIVIDADE 1 – HTML/CSS:</li>
+  <ul>
+    <li>Desenvolvimento completo do HTML</li>
+    <li>Início do desenvolvimento do CSS (versão mobile)</li>
+  </ul>
+  
+  <li>ATIVIDADE 2 – HTML/CSS:</li>
+  <ul>
+    <li>Desenvolvimento completo do CSS (versão responsiva)</li>
+  </ul>
+</ul>
+
+<strong>Javascript (reforçando, isso será feito no próximo módulo):</strong>
 
 ATIVIDADE 1 – JAVASCRIPT:
 Validação e máscara do formulário
+
 ATIVIDADE 2 – JAVASCRIPT:
 Registro em local storage e listagem das transações
 Funcionalidade de limpar dados
