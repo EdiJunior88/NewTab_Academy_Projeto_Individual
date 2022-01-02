@@ -26,7 +26,7 @@ header {
 
 .container_header {
   background: #E0E0E0;
-  width: 411px;
+  width: 100%;
   height: 60px;
   display: flex;
   flex-direction: row;
@@ -40,13 +40,13 @@ header {
   font-weight: 600;
 }
 
-/* Menu Horizontal (Versão Desktop) */
+/* ||| Menu Horizontal (Versão Desktop) ||| */
 
 .container_menu_horizontal {
   display: none;
 }
 
-/* Menu Hamburguer (Dispositivos Móveis) */
+/* ||| Menu Hamburguer (Dispositivos Móveis) ||| */
 
 .container_nav_menu {
   display: none;
@@ -56,6 +56,10 @@ header {
   position: absolute;
   transition: all 0.5s;
   margin-top: -46px;
+}
+
+.container_nav_menu li:nth-child(1) {
+  margin: 0px;
 }
 
 .container_nav_menu a {
@@ -101,7 +105,7 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
   transform: translateX(-295px);
 }
 
-/* Container Section (fomrulários e botão) */
+/* ||| Container Section (fomrulários e botão) ||| */
 
 .container_section {
   width: 100%;
@@ -169,7 +173,7 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
   font-weight: 400;
 }
 
-/* Linha para dividir a página */
+/* ||| Linha para dividir a página ||| */
 
 .linha_horizontal {
   width: 371px;
@@ -180,7 +184,7 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
   margin-bottom: 20px;
 }
 
-/* Container Section 2 (Extrato de transações) */
+/* ||| Container Section 2 (Extrato de transações) ||| */
 
 .container_section_2 {
   width: 100%;
@@ -197,7 +201,7 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
   padding-bottom: 19px;
 }
 
-/* Container da tabela (div) header, body e footer */
+/* ||| Container da tabela (div) header, body e footer ||| */
 
 .container_section_2_header {
   width: 371px;
@@ -268,7 +272,7 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
   margin-top: 7px;
 }
 
-/* Linha para dividir a as divs da tabela body, head e footer */
+/* ||| Linha para dividir a as divs da tabela body, head e footer ||| */
 
 .linha_horizontal_section_2 {
   width: 371px;
@@ -281,7 +285,7 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
   margin-top: 1px;
 }
 
-/* Fim da linha */
+/*------------------------------------------------------------------- */
 
 .container_section_2_footer,
 .container_section_2_footer_2 {
@@ -321,7 +325,7 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
   font-size: 10px;
 }
 
-/* Linha horizontal footer da página*/
+/* ||| Linha horizontal footer da página ||| */
 
 .linha_horizontal_footer {
   width: 100%;
@@ -350,9 +354,13 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
     justify-content: space-between;
   }
 
+  /* ||| Menu Horizontal (Desktop) ||| */
+
   .container_menu_horizontal {
     display: none;
   }
+
+  /* ---------------------------------- */
 
   .container_header_imagem {
     margin-left: 22px;
@@ -365,6 +373,10 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
   .container_nav_menu {
     width: 252px;
     height: 1024px;
+  }
+
+  .container_nav_menu li:nth-child(1) {
+    margin: 0;
   }
 
   input[type="checkbox"]:checked ~ .container_nav_menu {
@@ -682,7 +694,7 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
     order: 7;
   }
 
-  /* Container da tabela (div) header, body e footer */
+  /* ||| Container da tabela (div) header, body e footer ||| */
 
   body {
     width: 100%;
