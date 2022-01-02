@@ -103,9 +103,15 @@ Seu objetivo é criar uma SPA (Single Page Application) seguindo o layout que es
 
 <strong>Javascript (reforçando, isso será feito no próximo módulo):</strong>
 
-ATIVIDADE 1 – JAVASCRIPT:
-Validação e máscara do formulário
+<ul>
+  <li>ATIVIDADE 1 – JAVASCRIPT:</li>
+  <ul>
+    <li>Validação e máscara do formulário</li>
+  </ul>
 
-ATIVIDADE 2 – JAVASCRIPT:
-Registro em local storage e listagem das transações
-Funcionalidade de limpar dados
+  <li>ATIVIDADE 2 – JAVASCRIPT:</li>
+  <ul>
+    <li>Registro em local storage e listagem das transações</li>
+    <li>Funcionalidade de limpar dados</li>
+  </ul>
+</ul>
