@@ -568,8 +568,18 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
     align-items: center;
   }
 
-  .container_menu_horizontal::after {
+  .links_menu_horizontal:nth-child(2)::before {
     content: "|";
+    margin-right: 15px;
+    margin-left: 15px;
+    color: #979797;
+  }
+
+  .links_menu_horizontal:nth-child(3)::before {
+    content: "|";
+    margin-right: 15px;
+    margin-left: 15px;
+    color: #979797;
   }
 
   .container_menu_horizontal ul {
@@ -582,6 +592,7 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
     text-decoration: none;
     list-style: none;
     color: #000;
+    font-weight: 600;
   }
 
   /* ||| Menu Hamburguer (Dispositivos móveis) ||| */
