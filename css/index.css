@@ -40,7 +40,13 @@ header {
   font-weight: 600;
 }
 
-/* Menu lateral Hamburguer */
+/* Menu Horizontal (Versão Desktop) */
+
+.container_menu_horizontal {
+  display: none;
+}
+
+/* Menu Hamburguer (Dispositivos Móveis) */
 
 .container_nav_menu {
   display: none;
@@ -342,6 +348,10 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
     width: 100%;
     margin-bottom: 20px;
     justify-content: space-between;
+  }
+
+  .container_menu_horizontal {
+    display: none;
   }
 
   .container_header_imagem {
