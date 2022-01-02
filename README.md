@@ -30,38 +30,51 @@
 <p>Vamos lá?</p>
 
 <p><strong>Obs. 1)</strong> Antes vamos deixar aqui o link do teste técnico original: <a href="https://github.com/viavarejo/frontend-test">https://github.com/viavarejo/frontend-test</a></p>
-<s>
-  <p><strong>Obs. 2)</strong> No módulo seguinte você vai aprender sobre JavaScript para desenvolver alguns dos requisitos abaixo, mas já vamos deixá-los aqui para entender o escopo completo do projeto. Por enquanto, você precisará fazer toda a parte de HTML e CSS.</p>
-</s>
+<p><strong>Obs. 2)</strong> No módulo seguinte você vai aprender sobre JavaScript para desenvolver alguns dos requisitos abaixo, mas já vamos deixá-los aqui para entender o escopo completo do projeto. Por enquanto, você precisará fazer toda a parte de HTML e CSS.</p>
 
-Introdução
-Seu objetivo é criar uma SPA (Single Page Application) seguindo o layout que está aqui: https://www.figma.com/file/U8ojEXx2vxSK2KOvoBvHVH8y/Frontend-test?node-id=13%3A42
+<h4>Introdução</h4>
 
-Obs.: Se você fizer um cadastro e login no Figma, você conseguirá ver com mais detalhes todas as telas. E para facilitar, temos imagens e docs das telas no Drive também.
+Seu objetivo é criar uma SPA (Single Page Application) seguindo o layout que está aqui: <a href="https://www.figma.com/file/U8ojEXx2vxSK2KOvoBvHVH8y/Frontend-test?node-id=13%3A42">https://www.figma.com/file/U8ojEXx2vxSK2KOvoBvHVH8y/Frontend-test?node-id=13%3A42</a>
 
-No layout original, vocês vão ver que existem itens no menu sem utilidade. Vamos alterar e criar funcionalidades pra eles? 🙂
+<p><strong>Obs.:</strong> Se você fizer um cadastro e login no Figma, você conseguirá ver com mais detalhes todas as telas. E para facilitar, temos <a href="https://drive.google.com/drive/folders/1CciOKFCSynGqcrDc5VmGCaLlFFiFrXYs">imagens e docs das telas no Drive</a> também.</p>
 
-Durante o desenvolvimento portanto, vocês devem:
+<p>No layout original, vocês vão ver que existem itens no menu sem utilidade. Vamos alterar e criar funcionalidades pra eles? 🙂</p>
 
-Alterar o link “Resumo” para “Cadastro de transações”.
-Alterar o link “Dashboard” para “Limpar dados”.
-Excluir o link “Configurações”.
-O que sua aplicação deverá fazer
-Incluir transações de compra ou venda de mercadoria.
-Criar um extrato das transações incluídas. As transações deverão ser mostradas na ordem em que foram incluídas.
-Mostrar o saldo final e destacar se houve lucro ou prejuízo.
-A aplicação deverá ser responsiva e estar de acordo com o layout fornecido.
-Persistir as transações no Local Storage.
-Outros requisitos
-HTML:
+<p>Durante o desenvolvimento portanto, vocês devem:</p>
 
-As opções do campo “Tipo de transação” são: Compra e Venda.
-Caso não exista nenhuma transação cadastrada, adicione a mensagem “Nenhuma transação cadastrada.” na lista do Extrato.
-CSS:
+<ul>
+  <li>Alterar o link “Resumo” para “Cadastro de transações”.</li>
+  <li>Alterar o link “Dashboard” para “Limpar dados”.</li>
+  <li>Excluir o link “Configurações”.</li>
+</ul>
 
-Testar em smartphones, tablets (modos portrait e landscape) e monitores a partir de 1024px até 1900px. (Através do inspecionar elemento no navegador)
-A fonte utilizada é a Lato.
-A largura máxima do conteúdo é 1100px.
+<h4>O que sua aplicação deverá fazer</h4>
+
+<ul>
+  <li>Incluir transações de compra ou venda de mercadoria.</li>
+  <li>Criar um extrato das transações incluídas. As transações deverão ser mostradas na ordem em que foram incluídas.</li>
+  <li>Mostrar o saldo final e destacar se houve lucro ou prejuízo.</li>
+  <li>A aplicação deverá ser responsiva e estar de acordo com o layout fornecido.</li>
+  <li>Persistir as transações no Local Storage.</li>
+</ul>
+
+<h4>Outros requisitos</h4>
+
+<strong>HTML:</strong>
+
+<ul>
+  <li>As opções do campo “Tipo de transação” são: Compra e Venda.</li>
+  <li>Caso não exista nenhuma transação cadastrada, adicione a mensagem “Nenhuma transação cadastrada.” na lista do Extrato.</li>
+</ul>
+
+<strong>CSS:</strong>
+
+<ul>
+  <li>Testar em smartphones, tablets (modos portrait e landscape) e monitores a partir de 1024px até 1900px. (Através do inspecionar elemento no navegador)</li>
+  <li>A fonte utilizada é a Lato.</li>
+  <li>A largura máxima do conteúdo é 1100px.</li>
+</ul>
+
 JavaScript (isso será feito no próximo módulo):
 
 Validar o formulário para que todos os campos sejam preenchidos.
