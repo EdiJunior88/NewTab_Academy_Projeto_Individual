@@ -275,6 +275,8 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
   margin-top: 1px;
 }
 
+/* Fim da linha */
+
 .container_section_2_footer,
 .container_section_2_footer_2 {
   display: flex;
@@ -527,6 +529,51 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
     width: 100%;
     height: 834px;
   }
+
+  .container_header {
+    justify-content: flex-start;
+    height: 80px;
+  }
+
+  .container_header_imagem,
+  .container_header_titulo,
+  .menu_horizontal {
+    height: 40px;
+  }
+
+  .container_header_titulo {
+    margin-right: 249px;
+  }
+
+  .container_header_imagem {
+    margin-right: 20px;
+  }
+
+  .header_titulo {
+    width: 411px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+  }
+
+  .menu_horizontal {
+    width: 350px;
+    height: 40px;
+    background: #fff;
+    margin-right: 20px;
+  }
+
+
+  /* ||| Menu Hamburguer (Dispositivos móveis) ||| */
+
+  .container_header_menu, 
+  .nav_menu_label,
+  .container_nav_menu {
+    display: none;
+    margin: 0px;
+  }
+
+  /* ||||||||||||||||||||||||||||||||||||||||||||| */
 
   .container_section {
     width: 400px;
