@@ -593,4 +593,57 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
   .container_section_botao.button {
     order: 7;
   }
+
+  /* Container da tabela (div) header, body e footer */
+
+  body {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .container_section_2 {
+    width: 652px;
+    height: 281px;
+    margin-left: 20px;
+  }
+
+  .header_titulo1 {
+    margin-left: 40px;
+    margin-right: 487px;
+  }
+
+  .body_simbolo1,
+  .body_simbolo2,
+  .body_simbolo3 {
+    margin-left: 20px;
+  }
+
+  .body_texto1,
+  .body_texto2,
+  .body_texto3 {
+    margin-right: 263px;
+  }
+
+  .body_valor1,
+  .body_valor2,
+  .body_valor3 {
+    margin-bottom: 7px;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .footer_texto {
+    margin-left: 40px;
+    margin-right: 422px;
+  }
+
+  .footer_texto_descricao {
+    margin-left: 534px;
+  }
 }
