@@ -178,93 +178,51 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
 
 /* ||| Container da tabela (div) cabecalho, corpo e rodape ||| */
 
-.container_secao_2_cabecalho {
+.container_tabela_cabecalho {
   display: flex;
   width: 90%;
   height: 32px;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
   border-bottom: 1px solid #000;
 }
 
-.cabecalho_titulo {
+.tabela_titulo {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  margin: 0px 30px;
   font-weight: bold;
 }
 
-.container_secao_2_corpo {
+.tabela_titulo:nth-child(1) {
+  margin-left: 4%;
+}
+
+.tabela_titulo:nth-child(2) {
+  justify-content: flex-end;
+  margin-right: 7%;
+}
+
+.cabecalho_titulo .corpo_texto {
   display: flex;
-  justify-content: flex-start;
+  width: 100%;
+}
+
+.cabecalho_titulo .corpo_texto:nth-child(2) {
+  color: red;
+}
+
+.container_tabela_corpo {
+  display: flex;
   width: 90%;
   flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.corpo_texto {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: stretch;
+  flex-wrap: nowrap;
+  align-items: center;
   align-content: center;
-  width: 100%;
-  height: 34px;
 }
 
-.corpo_texto p:nth-child(1) {
-  margin-right: 11px;
-}
-
-.corpo_texto p:nth-child(2) {
-  width: 231px;
-}
-
-.corpo_texto p:nth-child(3) {
-  width: 98px;
-  text-align: right;
-}
-
-.container_secao_2_rodape,
-.container_secao_2_rodape_2 {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  align-items: flex-start;
-  width: 371px;
-  font-size: 14px;
-}
-
-.container_secao_2_rodape {
-  margin-top: 11px;
-  font-weight: 700;
-}
-
-.container_secao_2_rodape_2 {
-  width: 371px;
-  justify-content: flex-end;
-}
-
-.rodape_texto {
-  width: 72px;
-  height: 18px;
-  margin-left: 25px;
-}
-
-.rodape_valor {
-  width: 98px;
-  height: 18px;
-  text-align: end;
-  margin-right: 6px;
-}
-
-.rodape_texto_descricao {
-  margin-right: 6px;
-  font-size: 10px;
-}
 
 /* ||| Linha horizontal rodape da página ||| */
 
