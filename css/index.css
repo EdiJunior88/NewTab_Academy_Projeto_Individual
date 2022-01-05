@@ -43,11 +43,11 @@ header {
 .container_nav_menu {
   display: none;
   width: 351px;
-  height: 145%;
+  height: 109%;
   background: #333;
   position: absolute;
   transition: all 0.5s;
-  margin-top: -46px;
+  top: 0%;
 }
 
 .container_nav_menu li:nth-child(1) {
@@ -60,12 +60,15 @@ header {
   color: #fff;
   width: 100%;
   padding: 7px 20px 7px 0px;
+  font-size: 16px;
+  line-height: 19px;
   display: block;
   box-sizing: border-box;
 }
 
 .container_nav_menu li {
   list-style: none;
+  margin-right: 12px;
   margin-bottom: 12px;
   vertical-align: middle;
 }
@@ -74,8 +77,6 @@ header {
   color: #333333;
   background: #C4C4C4;
   font-weight: 600;
-  font-size: 16px;
-  line-height: 19px;
 }
 
 .container_nav_menu ul {
@@ -162,10 +163,10 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
 
 .container_secao_2 {
   width: 100%;
-  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 28px;
 }
 
 .container_secao_2_titulo {
@@ -186,7 +187,7 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
   align-items: flex-start;
   align-content: center;
   justify-content: space-between;
-  padding: 6px 11px;
+  padding: 6px 0px;
   border-bottom: 1px solid #000;
 }
 
@@ -194,12 +195,8 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  width: 48%;
   font-weight: bold;
-}
-
-.tabela_titulo:nth-child(2) {
-  justify-content: flex-end;
+  margin: 0px 25px;
 }
 
 .tabela_corpo {
@@ -208,13 +205,44 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
   height: auto;
 }
 
+.tabela_corpo:nth-child(1) {
+  margin-left: 10px;
+}
+
 .tabela_corpo:nth-child(2) {
   width: 62.5%;
 }
 
 .tabela_corpo:nth-child(3) {
   width: 26.5%;
+  margin-right: 10px;
   justify-content: flex-end;
+}
+
+.container_tabela:nth-child(6) {
+  margin-top: 2px;
+  padding-bottom: 0px;
+  border-top: 1px solid #000;
+  border-bottom: none;
+  font-weight: bold;
+}
+
+.tabela_rodape:nth-child(1) {
+  margin-left: 26px;
+}
+
+.tabela_rodape:nth-child(2) {
+  margin-right: 10px;
+}
+
+.tabela_rodape:nth-child(3) {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
+  width: 100%;
+  height: 18px;
+  font-size: 10px;
+  align-items: flex-end;
 }
 
 /* ||| Linha horizontal rodape da página ||| */
@@ -224,9 +252,7 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
   height: 8px;
   border: 1px solid #333;
   background: #333;
-  margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-top: 56px;
 }
 
 /*######### Media Querie (tablet Portrait) ##########*/
