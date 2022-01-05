@@ -6,7 +6,7 @@ body {
   padding: 0px;
   margin: 0px;
   border: 0px;
-  box-sizing: content-box;
+  box-sizing: border-box;
   font-family: 'Lato', sans-serif;
   font-size: 14px;
   line-height: 24px;
@@ -63,7 +63,6 @@ header {
   font-size: 16px;
   line-height: 19px;
   display: block;
-  box-sizing: border-box;
 }
 
 .container_nav_menu li {
@@ -82,6 +81,8 @@ header {
 .container_nav_menu ul {
   position: relative;
   top: 20px;
+  margin-right: 20px;
+  padding: 0px;
 }
 
 .nav_menu_imagem {
