@@ -1,7 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 body {
   width: 100%;
@@ -11,7 +8,7 @@ body {
   border: 0px;
   box-sizing: content-box;
   font-family: 'Lato', sans-serif;
-  font-size: 20px;
+  font-size: 14px;
   line-height: 24px;
   font-weight: 400;
 }
@@ -114,14 +111,13 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
 .container_secao_texto {
   display: flex;
   align-items: center;
-  width: 80%;
+  width: 90%;
   height: 32px;
-  font-size: 14px;
 }
 
 .container_secao_entrada {
   display: flex;
-  width: 80%;
+  width: 90%;
   height: 32px;
   border-radius: 4px;
   margin-bottom: 20px;
@@ -135,7 +131,7 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
 .container_secao_botao {
   display: flex;
   justify-content: center;
-  width: 80%;
+  width: 90%;
   border-bottom: 1px solid #000;
   padding-bottom: 28px;
 }
@@ -166,7 +162,7 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
 
 .container_secao_2 {
   width: 100%;
-  height: 281px;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -176,78 +172,46 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
   font-size: 18px;
   font-weight: 700;
   line-height: 22px;
-  padding-bottom: 19px;
+  margin-top: 40px;
+  margin-bottom: 19px;
 }
 
 /* ||| Container da tabela (div) cabecalho, corpo e rodape ||| */
 
 .container_secao_2_cabecalho {
-  width: 371px;
-  height: 22px;
+  display: flex;
+  width: 90%;
+  height: 32px;
+  flex-direction: row;
+  justify-content: center;
+  border-bottom: 1px solid #000;
+}
+
+.cabecalho_titulo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0px 30px;
+  font-weight: bold;
+}
+
+.container_secao_2_corpo {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.corpo_texto {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-}
-
-.cabecalho_titulo1 {
-  margin-left: 25px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 22px;
-}
-
-.cabecalho_titulo2 {
-  margin-right: 37px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 22px;
-}
-
-.container_secao_2_corpo,
-.container_secao_2_corpo_2,
-.container_secao_2_corpo_3 {
-  display: flex;
-  flex-flow: row wrap;
+  flex-wrap: wrap;
   justify-content: space-around;
-  align-items: flex-start;
-  width: 371px;
-  font-size: 14px;
+  width: 90%;
 }
 
-.corpo_simbolo1,
-.corpo_simbolo2,
-.corpo_simbolo3 {
-  width: 9px;
-  height: 25.35px;
-  margin-top: 7px;
-}
-
-.corpo_texto1 {
-  width: 231px;
-  height: 34px;
-  margin-top: 7px;
-}
-
-.corpo_texto2,
-.corpo_texto3 {
-  width: 231px;
-  height: 18px;
-  margin-top: 7px;
-}
-
-.corpo_valor1 {
-  width: 98px;
-  height: 41.86px;
-  text-align: end;
-  margin-top: 7px;
-}
-
-.corpo_valor2,
-.corpo_valor3 {
-  width: 98px;
-  height: 18px;
-  text-align: end;
-  margin-top: 7px;
+.corpo_texto p:nth-child(2) {
+  width: 62%;
 }
 
 /* ||| Linha para dividir a as divs da tabela corpo, head e rodape ||| */
