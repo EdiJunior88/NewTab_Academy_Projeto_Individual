@@ -178,50 +178,34 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
 
 /* ||| Container da tabela (div) cabecalho, corpo e rodape ||| */
 
-.container_tabela_cabecalho {
+.container_tabela {
   display: flex;
   width: 90%;
-  height: 32px;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: center;
+  justify-content: space-between;
+  padding: 6px 11px;
   border-bottom: 1px solid #000;
 }
 
 .tabela_titulo {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
-  width: 100%;
+  width: 48%;
   font-weight: bold;
-}
-
-.tabela_titulo:nth-child(1) {
-  margin-left: 4%;
 }
 
 .tabela_titulo:nth-child(2) {
   justify-content: flex-end;
-  margin-right: 7%;
-}
-
-.container_tabela_corpo {
-  display: flex;
-  width: 90%;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  align-content: center;
 }
 
 .tabela_corpo {
   display: flex;
   justify-content: flex-start;
   height: auto;
-}
-
-.tabela_corpo:nth-child(1) {
-  margin: 0px 3%;
 }
 
 .tabela_corpo:nth-child(2) {
