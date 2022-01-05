@@ -29,8 +29,16 @@ header {
   height: 60px;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
+}
+
+.container_cabecalho_imagem {
+  margin-left: 20px;
+}
+
+.container_cabecalho_menu {
+  margin-right: 20px;
 }
 
 /* ||| Menu Hamburguer (Dispositivos Móveis) ||| */
@@ -97,21 +105,38 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
 .container_secao {
   width: 100%;
   height: auto;
-
+  margin-top: 26px;
   display: flex;
   flex-direction: column;
-  align-content: center;
-  justify-content: center;
   align-items: center;
 }
 
-.container_secao_selecao,
+.container_secao_texto {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  height: 32px;
+  font-size: 14px;
+}
+
 .container_secao_entrada {
   display: flex;
-  border: 1px solid #979797;
-  width: 371px;
+  width: 80%;
   height: 32px;
   border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+#selecao {
+  width: 100%;
+  padding-left: 7px;
+}
+
+.container_secao_botao {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
 }
 
 .container_secao_selecao #selecao {
@@ -120,55 +145,21 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
   background: none;
 }
 
-.container_secao_entrada #mercadoria,
-.container_secao_entrada #valor {
+#mercadoria,
+#valor {
   width: 100%;
-  padding-left: 12px;
+  padding-left: 10px;
 }
 
-.container_secao_texto {
-  width: 90.5%;
-  margin-top: 20px;
-  margin-bottom: 10px;
-  display: flex;
-  justify-content: flex-start;
-}
-
-.container_secao_texto:nth-child(1) {
-  padding-top: 26px;
-}
-
-.container_secao_texto:nth-child(3) {
-  padding-top: 20px;
-}
-
-.container_secao_texto:nth-child(5) {
-  padding-top: 20px;
-}
 
 .button {
-  width: 371px;
-  height: 32px;
-  margin-top: 20px;
   display: flex;
   justify-content: center;
+  width: 80%;
+  height: 32px;
   background: #333;
   color: white;
   border-radius: 4px;
-  font-family: 'Inter', sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-}
-
-/* ||| Linha para dividir a página ||| */
-
-.linha_horizontal {
-  width: 371px;
-  border: 1px solid #979797;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 28.56px;
-  margin-bottom: 20px;
 }
 
 /* ||| Container secao 2 (Extrato de transações) ||| */
