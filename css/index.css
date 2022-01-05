@@ -198,36 +198,35 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
 
 .container_secao_2_corpo {
   display: flex;
-  justify-content: center;
-  width: 100%;
+  justify-content: flex-start;
+  width: 90%;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .corpo_texto {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
-  width: 90%;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: center;
+  width: 100%;
+  height: 34px;
+}
+
+.corpo_texto p:nth-child(1) {
+  margin-right: 11px;
 }
 
 .corpo_texto p:nth-child(2) {
-  width: 62%;
+  width: 231px;
 }
 
-/* ||| Linha para dividir a as divs da tabela corpo, head e rodape ||| */
-
-.linha_horizontal_secao_2 {
-  width: 371px;
-  border: 1px solid #979797;
-  margin-left: auto;
-  margin-right: auto;
+.corpo_texto p:nth-child(3) {
+  width: 98px;
+  text-align: right;
 }
-
-.linha_horizontal_secao_2:nth-child(10){
-  margin-top: 1px;
-}
-
-/*------------------------------------------------------------------- */
 
 .container_secao_2_rodape,
 .container_secao_2_rodape_2 {
