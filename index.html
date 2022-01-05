@@ -15,7 +15,7 @@
       </div>
 
       <div class="container_cabecalho_titulo">
-        <p class="cabecalho_titulo">Controle Financeiro</p>
+        <span class="cabecalho_titulo">Controle Financeiro</span>
       </div>
 
       <!-- Menu Lateral Hamburguer -->
@@ -44,34 +44,29 @@
   <!-- Section Transações com Resultado -->
 
   <section>
-    <div class="container_secao">
-      <div class="texto_nova_transacao"></div>
-      
+    <div class="container_secao">      
       <div class="container_secao_texto">
-        <p>Tipo de transação</p>
-      </div>
-
-      <div class="container_secao_entrada">
-        <select name="selecao" id="selecao">
-          <option value="compra" selected>Compra</option>
-          <option value="venda">Venda</option>
-        </select>
+        <div>Tipo de transação</div>
+        <div class="container_secao_entrada">
+          <select name="selecao" id="selecao">
+            <option value="compra" selected>Compra</option>
+            <option value="venda">Venda</option>
+          </select>
+        </div>
       </div>
 
       <div class="container_secao_texto">
-        <p>Nome da mercadoria</p>
-      </div>
-
-      <div class="container_secao_entrada">
-        <input type="text" name="mercadoria" id="mercadoria" placeholder="entrada">
+        <div>Nome da mercadoria</div>
+        <div class="container_secao_entrada">
+          <input type="text" name="mercadoria" id="mercadoria" placeholder="entrada">
+        </div>
       </div>
 
       <div class="container_secao_texto">
-        <p>Valor</p>
-      </div>
-
-      <div class="container_secao_entrada">
-        <input type="number" name="valor" id="valor" placeholder="R$ 0,00">
+        <div>Valor</div>
+        <div class="container_secao_entrada">
+          <input type="number" name="valor" id="valor" placeholder="R$ 0,00">
+        </div>
       </div>
 
       <div class="container_secao_botao">
