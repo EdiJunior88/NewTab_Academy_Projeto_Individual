@@ -8,14 +8,14 @@
   <title>Controle Financeiro</title>
 </head>
 <body>
-  <header>
-    <div class="container_header">
-      <div class="container_header_imagem">
-        <img class="header_imagem" src="img/logo.svg" alt="Logo">
+  <cabecalho>
+    <div class="container_cabecalho">
+      <div class="container_cabecalho_imagem">
+        <img class="cabecalho_imagem" src="img/logo.svg" alt="Logo">
       </div>
 
-      <div class="container_header_titulo">
-        <p class="header_titulo">Controle Financeiro</p>
+      <div class="container_cabecalho_titulo">
+        <p class="cabecalho_titulo">Controle Financeiro</p>
       </div>
 
       <!-- Menu Horizontal -->
@@ -30,9 +30,9 @@
 
       <!-- Menu Lateral Hamburguer -->
       
-      <div class="container_header_menu">
+      <div class="container_cabecalho_menu">
         <input type="checkbox" id="chec">
-        <label class="nav_menu_label" for="chec">
+        <label class="nav_menu_rotulo" for="chec">
           <img src="img/mobile-menu.svg" alt="Menu">
         </label>
 
@@ -40,12 +40,11 @@
           <ul>
             <li>
               <input type="checkbox" id="chec">
-              <label class="nav_menu_label" for="chec">
+              <label class="nav_menu_rotulo" for="chec">
               <img class="nav_menu_imagem" src="img/sidebar-close-btn.svg" alt="Fechar Janela">
             </li>
             <li><a href="#">Cadastro de transações</a></li>
             <li><a href="#">Limpar dados</a></li>
-            <!-- <li><a href="#">Configurações</a></li> -->
           </ul>
         </nav>
       </div>
@@ -55,37 +54,37 @@
   <!-- Section Transações com Resultado -->
 
   <section>
-    <div class="container_section">
+    <div class="container_secao">
       <div class="texto_nova_transacao"></div>
       
-      <div class="container_section_texto texto_transacao">
+      <div class="container_secao_texto texto_transacao">
         <p>Tipo de transação</p>
       </div>
 
-      <div class="container_section_select">
+      <div class="container_secao_select">
         <select name="select" id="select">
           <option value="compra" selected>Compra</option>
           <option value="venda">Venda</option>
         </select>
       </div>
 
-      <div class="container_section_texto texto_mercadoria">
+      <div class="container_secao_texto texto_mercadoria">
         <p>Nome da mercadoria</p>
       </div>
 
-      <div class="container_section_input input_mercadoria">
+      <div class="container_secao_input input_mercadoria">
         <input type="text" name="mercadoria" id="mercadoria" placeholder="input">
       </div>
 
-      <div class="container_section_texto texto_valor">
+      <div class="container_secao_texto texto_valor">
         <p>Valor</p>
       </div>
 
-      <div class="container_section_input input_valor">
+      <div class="container_secao_input input_valor">
         <input type="number" name="valor" id="valor" placeholder="R$ 0,00">
       </div>
 
-      <div class="container_section_botao">
+      <div class="container_secao_botao">
         <input class="button" type="button" value="Adicionar transação">
       </div>
     </div>
@@ -94,26 +93,26 @@
   <div class="linha_horizontal"></div>
 
   <section>
-    <div class="container_section_2">
-      <div class="container_section_2_titulo">
+    <div class="container_secao_2">
+      <div class="container_secao_2_titulo">
         <p>Extrato de transações</p>
       </div>
 
       <!-- Criando uma tabela com containers (div) separando por header, body e footer -->
 
-      <div class="container_section_2_header">
-        <div class="header_titulo1">
+      <div class="container_secao_2_cabecalho">
+        <div class="cabecalho_titulo1">
           <p>Mercadoria</p>
         </div>
 
-        <div class="header_titulo2">
+        <div class="cabecalho_titulo2">
           <p>Valor</p>
         </div>
       </div>
 
-      <div class="linha_horizontal_section_2"></div>
+      <div class="linha_horizontal_secao_2"></div>
 
-      <div class="container_section_2_body">
+      <div class="container_secao_2_body">
         <div class="body_simbolo1">
           <p>+</p>
         </div>
@@ -127,9 +126,9 @@
         </div>
       </div>
 
-      <div class="linha_horizontal_section_2"></div>
+      <div class="linha_horizontal_secao_2"></div>
 
-      <div class="container_section_2_body_2">
+      <div class="container_secao_2_body_2">
         <div class="body_simbolo2">
           <p>-</p>
         </div>
@@ -143,9 +142,9 @@
         </div>
       </div>
 
-      <div class="linha_horizontal_section_2"></div>
+      <div class="linha_horizontal_secao_2"></div>
 
-      <div class="container_section_2_body_3">
+      <div class="container_secao_2_body_3">
         <div class="body_simbolo3">
           <p>+</p>
         </div>
@@ -159,10 +158,10 @@
         </div>
       </div>
 
-      <div class="linha_horizontal_section_2"></div>
-      <div class="linha_horizontal_section_2"></div>
+      <div class="linha_horizontal_secao_2"></div>
+      <div class="linha_horizontal_secao_2"></div>
 
-      <div class="container_section_2_footer">
+      <div class="container_secao_2_footer">
         <div class="footer_texto">
           <p>Total</p>
         </div>
@@ -172,7 +171,7 @@
         </div>
       </div>
   
-      <div class="container_section_2_footer_2">
+      <div class="container_secao_2_footer_2">
         <div class="footer_texto_descricao">
           <p>[LUCRO]</p>
         </div>

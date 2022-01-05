@@ -24,7 +24,7 @@ header {
   justify-content: center;
 }
 
-.container_header {
+.container_cabecalho {
   background: #E0E0E0;
   width: 100%;
   height: 60px;
@@ -34,7 +34,7 @@ header {
   align-items: center;
 }
 
-.header_titulo {
+.cabecalho_titulo {
   font-size: 20px;
   line-height: 24px;
   font-weight: 600;
@@ -105,9 +105,9 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
   transform: translateX(-295px);
 }
 
-/* ||| Container Section (fomrulários e botão) ||| */
+/* ||| Container secao (fomrulários e botão) ||| */
 
-.container_section {
+.container_secao {
   width: 100%;
   height: auto;
 
@@ -118,8 +118,8 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
   align-items: center;
 }
 
-.container_section_select,
-.container_section_input {
+.container_secao_select,
+.container_secao_input {
   display: flex;
   border: 1px solid #979797;
   width: 371px;
@@ -127,19 +127,19 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
   border-radius: 4px;
 }
 
-.container_section_select #select {
+.container_secao_select #select {
   width: 100%;
   margin-left: 6px;
   background: none;
 }
 
-.container_section_input #mercadoria,
-.container_section_input #valor {
+.container_secao_input #mercadoria,
+.container_secao_input #valor {
   width: 100%;
   padding-left: 12px;
 }
 
-.container_section_texto {
+.container_secao_texto {
   width: 90.5%;
   margin-top: 20px;
   margin-bottom: 10px;
@@ -147,15 +147,15 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
   justify-content: flex-start;
 }
 
-.container_section_texto:nth-child(1) {
+.container_secao_texto:nth-child(1) {
   padding-top: 26px;
 }
 
-.container_section_texto:nth-child(3) {
+.container_secao_texto:nth-child(3) {
   padding-top: 20px;
 }
 
-.container_section_texto:nth-child(5) {
+.container_secao_texto:nth-child(5) {
   padding-top: 20px;
 }
 
@@ -184,9 +184,9 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
   margin-bottom: 20px;
 }
 
-/* ||| Container Section 2 (Extrato de transações) ||| */
+/* ||| Container secao 2 (Extrato de transações) ||| */
 
-.container_section_2 {
+.container_secao_2 {
   width: 100%;
   height: 281px;
   display: flex;
@@ -194,16 +194,16 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
   align-items: center;
 }
 
-.container_section_2_titulo {
+.container_secao_2_titulo {
   font-size: 18px;
   font-weight: 700;
   line-height: 22px;
   padding-bottom: 19px;
 }
 
-/* ||| Container da tabela (div) header, body e footer ||| */
+/* ||| Container da tabela (div) cabecalho, body e footer ||| */
 
-.container_section_2_header {
+.container_secao_2_cabecalho {
   width: 371px;
   height: 22px;
   display: flex;
@@ -211,23 +211,23 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
   justify-content: space-between;
 }
 
-.header_titulo1 {
+.cabecalho_titulo1 {
   margin-left: 25px;
   font-weight: 700;
   font-size: 14px;
   line-height: 22px;
 }
 
-.header_titulo2 {
+.cabecalho_titulo2 {
   margin-right: 37px;
   font-weight: 700;
   font-size: 14px;
   line-height: 22px;
 }
 
-.container_section_2_body,
-.container_section_2_body_2,
-.container_section_2_body_3 {
+.container_secao_2_body,
+.container_secao_2_body_2,
+.container_secao_2_body_3 {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
@@ -274,21 +274,21 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
 
 /* ||| Linha para dividir a as divs da tabela body, head e footer ||| */
 
-.linha_horizontal_section_2 {
+.linha_horizontal_secao_2 {
   width: 371px;
   border: 1px solid #979797;
   margin-left: auto;
   margin-right: auto;
 }
 
-.linha_horizontal_section_2:nth-child(10){
+.linha_horizontal_secao_2:nth-child(10){
   margin-top: 1px;
 }
 
 /*------------------------------------------------------------------- */
 
-.container_section_2_footer,
-.container_section_2_footer_2 {
+.container_secao_2_footer,
+.container_secao_2_footer_2 {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
@@ -297,12 +297,12 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
   font-size: 14px;
 }
 
-.container_section_2_footer {
+.container_secao_2_footer {
   margin-top: 11px;
   font-weight: 700;
 }
 
-.container_section_2_footer_2 {
+.container_secao_2_footer_2 {
   width: 371px;
   justify-content: flex-end;
 }
@@ -348,7 +348,7 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
     align-items: center;
   }
 
-  .container_header {
+  .container_cabecalho {
     width: 100%;
     margin-bottom: 20px;
     justify-content: space-between;
@@ -362,11 +362,11 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
 
   /* ---------------------------------- */
 
-  .container_header_imagem {
+  .container_cabecalho_imagem {
     margin-left: 22px;
   }
 
-  .container_header_menu {
+  .container_cabecalho_menu {
     margin-right: 22px;
   }
 
@@ -383,7 +383,7 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
     transform: translateX(-205px);
   }
 
-  .container_section {
+  .container_secao {
     width: 728px;
     height: 189px;
     margin-left: auto;
@@ -417,44 +417,44 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
     line-height: 22px;
   }
 
-  .container_section_texto.texto_transacao {
+  .container_secao_texto.texto_transacao {
     width: 150px;
     height: 22px;
     order: 1;
   }
 
-  .container_section_texto.texto_mercadoria {
+  .container_secao_texto.texto_mercadoria {
     width: 348px;
     height: 22px;
     order: 2;
   }
 
-  .container_section_texto.texto_valor {
+  .container_secao_texto.texto_valor {
     width: 150px;
     height: 22px;
     order: 3;
   }
 
-  .container_section_select {
+  .container_secao_select {
     width: 150px;
     margin-left: 17px;
     order: 4;
   }
 
-  .container_section_input.input_mercadoria {
+  .container_secao_input.input_mercadoria {
     width: 348px;
     margin-left: 17px;
     margin-right: 17px;
     order: 5;
   }
 
-  .container_section_input.input_valor {
+  .container_secao_input.input_valor {
     width: 150px;
     margin-right: 17px;
     order: 6;
   }
 
-  .container_section_botao {
+  .container_secao_botao {
     display: flex;
     justify-content: flex-end;
     width: 100%;
@@ -471,37 +471,37 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
     display: none;
   }
 
-  .linha_horizontal_section_2 {
+  .linha_horizontal_secao_2 {
     width: 100%;
   }
 
-  .container_section_2 {
+  .container_secao_2 {
     width: 728px;
     height: 289px;
     margin-top: 23px;
     margin-bottom: 419px;
   }
 
-  .container_section_2_titulo {
+  .container_secao_2_titulo {
     margin-top: 21px;
   }
 
-  .container_section_2_header,
-  .container_section_2_body,
-  .container_section_2_body_2,
-  .container_section_2_body_3, 
-  .container_section_2_footer, 
-  .container_section_2_footer_2 {
+  .container_secao_2_cabecalho,
+  .container_secao_2_body,
+  .container_secao_2_body_2,
+  .container_secao_2_body_3, 
+  .container_secao_2_footer, 
+  .container_secao_2_footer_2 {
     width: 100%;
     justify-content: start;
   }
 
-  .header_titulo1 {
+  .cabecalho_titulo1 {
     margin-left: 40px;
     margin-right: 563px;
   }
 
-  .header_titulo2 {
+  .cabecalho_titulo2 {
     margin-right: 0px;
   }
 
@@ -552,26 +552,26 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
     height: 834px;
   }
 
-  .container_header {
+  .container_cabecalho {
     justify-content: center;
     height: 80px;
   }
 
-  .container_header_imagem,
-  .container_header_titulo,
+  .container_cabecalho_imagem,
+  .container_cabecalho_titulo,
   .menu_horizontal {
     height: 40px;
   }
 
-  .container_header_titulo {
+  .container_cabecalho_titulo {
     margin-right: 249px;
   }
 
-  .container_header_imagem {
+  .container_cabecalho_imagem {
     margin-right: 20px;
   }
 
-  .header_titulo {
+  .cabecalho_titulo {
     width: 411px;
     height: 40px;
     display: flex;
@@ -619,8 +619,8 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
 
   /* ||| Menu Hamburguer (Dispositivos móveis) ||| */
 
-  .container_header_menu, 
-  .nav_menu_label,
+  .container_cabecalho_menu, 
+  .nav_menu_rotulo,
   .container_nav_menu {
     display: none;
     margin: 0px;
@@ -628,7 +628,7 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
 
   /* ---------------------------------------------- */
 
-  .container_section {
+  .container_secao {
     width: 400px;
     height: 344px;
     flex-direction: column;
@@ -641,46 +641,46 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
     margin: 0px;
   }
 
-  .container_section_texto.texto_transacao {
+  .container_secao_texto.texto_transacao {
     width: 370px;
     margin-left: 14.9px;
     margin-bottom: 5px;
     order: 1;
   }
 
-  .container_section_select {
+  .container_secao_select {
     width: 370px;
     margin-left: 14.9px;
     order: 2;
   }
 
-  .container_section_texto.texto_mercadoria {
+  .container_secao_texto.texto_mercadoria {
     width: 370px;
     margin-left: 14.9px;
     margin-bottom: 5px;
     order: 3;
   }
 
-  .container_section_input.input_mercadoria {
+  .container_secao_input.input_mercadoria {
     width: 370px;
     margin-left: 14.9px;
     order: 4;
   }
 
-  .container_section_texto.texto_valor {
+  .container_secao_texto.texto_valor {
     width: 370px;
     margin-left: 14.9px;
     margin-bottom: 5px;
     order: 5;
   }
 
-  .container_section_input.input_valor {
+  .container_secao_input.input_valor {
     width: 370px;
     margin-left: 14.9px;
     order: 6;
   }
 
-  .container_section_botao {
+  .container_secao_botao {
     width: 100%;
     margin: 0px;
     justify-content: center;
@@ -690,11 +690,11 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
     width: 370px;
   }
 
-  .container_section_botao.button {
+  .container_secao_botao.button {
     order: 7;
   }
 
-  /* ||| Container da tabela (div) header, body e footer ||| */
+  /* ||| Container da tabela (div) cabecalho, body e footer ||| */
 
   body {
     width: 100%;
@@ -707,13 +707,13 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
     align-content: center;
   }
 
-  .container_section_2 {
+  .container_secao_2 {
     width: 652px;
     height: 281px;
     margin-left: 20px;
   }
 
-  .header_titulo1 {
+  .cabecalho_titulo1 {
     margin-left: 40px;
     margin-right: 487px;
   }
@@ -756,11 +756,11 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
     height: 100%;
   }
 
-  .container_header {
+  .container_cabecalho {
     justify-content: center;
   }
 
-  .container_section_2 {
+  .container_secao_2 {
     height: 281px;
     margin-top: 0px;
     margin-bottom: 609px;
