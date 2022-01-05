@@ -46,7 +46,7 @@ header {
 .container_nav_menu {
   display: none;
   width: 351px;
-  height: 725px;
+  height: 145%;
   background: #333;
   position: absolute;
   transition: all 0.5s;
@@ -135,8 +135,9 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
 .container_secao_botao {
   display: flex;
   justify-content: center;
-  width: 100%;
-  margin-top: 20px;
+  width: 80%;
+  border-bottom: 1px solid #000;
+  padding-bottom: 28px;
 }
 
 .container_secao_selecao #selecao {
@@ -151,11 +152,10 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
   padding-left: 10px;
 }
 
-
 .button {
   display: flex;
   justify-content: center;
-  width: 80%;
+  width: 100%;
   height: 32px;
   background: #333;
   color: white;
