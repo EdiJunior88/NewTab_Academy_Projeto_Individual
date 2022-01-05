@@ -205,24 +205,33 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
   margin-right: 7%;
 }
 
-.cabecalho_titulo .corpo_texto {
-  display: flex;
-  width: 100%;
-}
-
-.cabecalho_titulo .corpo_texto:nth-child(2) {
-  color: red;
-}
-
 .container_tabela_corpo {
   display: flex;
   width: 90%;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   align-items: center;
   align-content: center;
 }
 
+.tabela_corpo {
+  display: flex;
+  justify-content: flex-start;
+  height: auto;
+}
+
+.tabela_corpo:nth-child(1) {
+  margin: 0px 3%;
+}
+
+.tabela_corpo:nth-child(2) {
+  width: 62.5%;
+}
+
+.tabela_corpo:nth-child(3) {
+  width: 26.5%;
+  justify-content: flex-end;
+}
 
 /* ||| Linha horizontal rodape da página ||| */
 
