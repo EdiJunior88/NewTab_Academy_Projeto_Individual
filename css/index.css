@@ -39,7 +39,7 @@ header {
 }
 
 .container_cabecalho_menu {
-  margin-right: 20px;
+  margin-right: 18px;
 }
 
 /* ||| Menu Hamburguer (Dispositivos Móveis) ||| */
@@ -49,7 +49,7 @@ header {
   width: 339px;
   height: 100%;
   background: #333;
-  position: absolute;
+  position: fixed;
   transition: all 0.5s;
   top: 0%;
 }
@@ -71,7 +71,6 @@ header {
 
 .container_nav_menu li {
   list-style: none;
-  margin-right: 12px;
   margin-bottom: 12px;
   vertical-align: middle;
 }
@@ -314,6 +313,14 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
     margin-bottom: 427px;
   }
   
+  .container_nav_menu {
+    width: 252px;
+  }
+
+  input[type="checkbox"]:checked ~ .container_nav_menu {
+    display: block;
+    transform: translateX(-210px);
+  }
 }
 
 /* ######### Media Querie (Desktop) ##########
