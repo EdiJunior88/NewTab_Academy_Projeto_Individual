@@ -44,6 +44,7 @@ header {
 
 .cabecalho_titulo {
   font-size: 20px;
+  font-weight: bold;
 }
 
 /* ||| Menu Hamburguer (Dispositivos Móveis) ||| */
@@ -190,7 +191,7 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
   display: flex;
   width: 90%;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: flex-start;
   align-content: center;
   justify-content: space-between;
@@ -199,9 +200,6 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
 }
 
 .tabela_titulo {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
   font-weight: bold;
   margin: 0px 25px;
 }
@@ -213,11 +211,11 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
 }
 
 .tabela_corpo:nth-child(1) {
-  margin-left: 10px;
+  margin: 0px 10px;
 }
 
 .tabela_corpo:nth-child(2) {
-  width: 62.5%;
+  width: 68%;
 }
 
 .tabela_corpo:nth-child(3) {
@@ -227,11 +225,14 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
 }
 
 .container_tabela:nth-child(6) {
+  display: flex;
+  justify-content: space-between;
   margin-top: 2px;
   padding-bottom: 0px;
   border-top: 1px solid #000;
   border-bottom: none;
   font-weight: bold;
+  flex-wrap: wrap;
 }
 
 .tabela_rodape:nth-child(1) {
@@ -383,8 +384,6 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
   }
 
   .container_nav_menu a {
-    display: unset;
-    text-align: unset;
     padding: 0px;
     color: #333333;
     font-weight: bold;
@@ -399,6 +398,7 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
     content: "|";
     margin: 0px 20px;
   }
+
 
   .container_nav_menu li {
     margin: 0px;
