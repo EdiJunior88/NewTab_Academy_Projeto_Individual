@@ -248,13 +248,12 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
   align-items: flex-end;
 }
 
-
-/*######### Media Querie (tablet Portrait) ##########*/
+/* ######### Media Querie (tablet Portrait) ########## */
 
 @media screen and (min-width: 768px) {
-  
-  .container_cabecalho {
-    margin-bottom: 20px;
+
+  .container_total {
+    margin-top: 20px;
   }
 
   .container_secao {
@@ -330,6 +329,56 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
 /* ######### Media Querie (Desktop) ########## */
 
 @media screen and (min-width: 1112px) {
+
+  .container_cabecalho {
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+
+  .container_cabecalho_titulo {
+    width: 411px;
+    height: 43px;
+    margin-right: 249px;
+    display: flex;
+    align-items: center;
+  }
+
+  .nav_menu_rotulo {
+    display: none;
+  }
+
+  .container_cabecalho .container_nav_menu {
+    width: 350px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: unset;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container_nav_menu ul {
+    display: flex;
+    position: unset;
+    margin: 0px;
+    top: 0px;
+    padding: 0px;
+  }
+
+  .container_nav_menu a {
+    display: unset;
+    text-align: unset;
+    padding: 0px;
+  }
+
+  .container_nav_menu li {
+    margin: 0px;
+  }
+
+  .container_cabecalho_imagem {
+    margin-left: 20px;
+  }
 
   .container_total {
     display: flex;
