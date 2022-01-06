@@ -306,7 +306,11 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
   }
 
   .button {
-    width: 31.3%;
+    width: 200px;
+  }
+
+  .button:hover {
+    cursor: pointer;
   }
 
   .container_secao_2 {
