@@ -14,6 +14,7 @@
 ![index-readme](index-readme.gif)
 
 <hr>
+<hr>
 
 <h3>Escopo do projeto individual</h3>
 
