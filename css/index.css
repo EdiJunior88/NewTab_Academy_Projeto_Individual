@@ -260,6 +260,19 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
     margin-top: 20px;
   }
 
+  /* Menu Hamburguer */
+
+  .container_nav_menu {
+    width: 252px;
+  }
+
+  input[type="checkbox"]:checked ~ .container_nav_menu {
+    display: block;
+    transform: translateX(-210px);
+  }
+
+  /* --------------- */
+
   .container_secao {
     display: flex;
     flex-direction: row;
@@ -320,14 +333,10 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
     margin-bottom: 427px;
   }
   
-  .container_nav_menu {
-    width: 252px;
+  .tabela_rodape:nth-child(1) {
+    margin-left: 40px;
   }
 
-  input[type="checkbox"]:checked ~ .container_nav_menu {
-    display: block;
-    transform: translateX(-210px);
-  }
 }
 
 /* ######### Media Querie (Desktop) ########## */
