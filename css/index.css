@@ -327,26 +327,61 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
   }
 }
 
-/* ######### Media Querie (Desktop) ##########
+/* ######### Media Querie (Desktop) ########## */
 
-@media screen and (min-width: 1500px) {
-  html, body {
+@media screen and (min-width: 1112px) {
+
+  .container_total {
+    display: flex;
     width: 100%;
-    height: 100%;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    flex-direction: row;
   }
 
-  .container_cabecalho {
+  .container_secao {
+    width: 400px;
+    height: 344px;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-start;
+    margin-right: 20px;
+  }
+
+  .container_secao::before {
+    margin-bottom: 20px;
+  }
+
+  .container_secao .container_secao_texto,
+  .container_secao_entrada {
+    width: 370px;
+  }
+
+  .container_secao .container_secao_texto {
+    margin: 0px 0px 20px 0px;
+  }
+
+  .container_secao_botao {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .button {
+    width: 370px;
+  }
+
+  /* Section 2 (Extrato de Transações) */
+
+  .container_secao_2 {
+    width: 652px;
+    height: 281px;
+    margin: 0px;
     justify-content: center;
   }
 
-  .container_secao_2 {
-    height: 281px;
-    margin-top: 0px;
-    margin-bottom: 609px;
-  }
-
-  .linha_horizontal_rodape {
+  .container_secao_2_titulo {
     margin: 0px;
   }
 }
- */
+ 
