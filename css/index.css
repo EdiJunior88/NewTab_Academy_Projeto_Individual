@@ -42,6 +42,10 @@ header {
   margin-right: 18px;
 }
 
+.cabecalho_titulo {
+  font-size: 20px;
+}
+
 /* ||| Menu Hamburguer (Dispositivos Móveis) ||| */
 
 .container_nav_menu {
@@ -331,6 +335,7 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
 @media screen and (min-width: 1112px) {
 
   .container_cabecalho {
+    height: 80px;
     margin-bottom: 20px;
     justify-content: center;
   }
@@ -338,6 +343,7 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
   .container_cabecalho_titulo {
     width: 411px;
     height: 43px;
+    margin-left: 20px;
     margin-right: 249px;
     display: flex;
     align-items: center;
@@ -350,6 +356,7 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
   .container_cabecalho .container_nav_menu {
     width: 350px;
     height: 40px;
+    background: #FFF;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -370,6 +377,18 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
     display: unset;
     text-align: unset;
     padding: 0px;
+    color: #333333;
+    font-weight: bold;
+  }
+
+  .container_nav_menu a:hover {
+    cursor: pointer;
+    background: none;
+  }
+
+  .link_cadastro::after {
+    content: "|";
+    margin: 0px 20px;
   }
 
   .container_nav_menu li {
