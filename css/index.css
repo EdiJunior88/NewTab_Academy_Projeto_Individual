@@ -2,8 +2,7 @@
 
 body {
   width: 100%;
-  min-height: 100%;
-  height: 100%;
+  height: 100vh;
   padding: 0px;
   margin: 0px;
   border: 0px;
@@ -12,6 +11,7 @@ body {
   font-size: 14px;
   line-height: 24px;
   font-weight: 400;
+  border-bottom: 8px solid #333;
 }
 
 header {
@@ -165,18 +165,17 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
 
 .container_secao_2 {
   width: 100%;
+  margin-bottom: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 28px;
 }
 
 .container_secao_2_titulo {
   font-size: 18px;
   font-weight: 700;
   line-height: 22px;
-  margin-top: 40px;
-  margin-bottom: 19px;
+  margin-top: 41px;
 }
 
 /* ||| Container da tabela (div) cabecalho, corpo e rodape ||| */
@@ -247,19 +246,14 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
   align-items: flex-end;
 }
 
-/* ||| Linha horizontal rodape da página ||| */
-
-.linha_horizontal_rodape {
-  width: 100%;
-  height: 8px;
-  border: 1px solid #333;
-  background: #333;
-  margin-top: 56px;
-}
 
 /*######### Media Querie (tablet Portrait) ##########*/
 
 @media screen and (min-width: 768px) {
+  
+  .container_cabecalho {
+    margin-bottom: 20px;
+  }
 
   .container_secao {
     display: flex;
@@ -269,6 +263,7 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
     justify-content: center;
     border: 1px solid #979797;
     width: 90%;
+    margin: auto;
   }
 
   .container_secao::before {
@@ -303,12 +298,17 @@ input[type="checkbox"]:checked ~ .container_nav_menu {
   .container_secao_botao {
     width: 90%;
     margin-top: 20px;
+    padding-bottom: 20px;
     border:none;
     justify-content: flex-end;
   }
 
   .button {
     width: 31.3%;
+  }
+
+  .container_secao_2 {
+    margin-bottom: 427px;
   }
   
 }
