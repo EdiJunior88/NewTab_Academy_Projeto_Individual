@@ -11,7 +11,7 @@
 
 <hr>
 
-![index-readme](index-readme.gif)
+![readme](readme.gif)
 
 <hr>
 
