@@ -7,7 +7,13 @@
 
 <hr>
 
-<strong>Link do projeto do curso: <a href="https://edijunior88.github.io/NewTab_Academy_Projeto_Individual/">https://edijunior88.github.io/NewTab_Academy_Projeto_Individual/</a></strong>
+<strong>Link do projeto do curso:</strong> <a href="https://edijunior88.github.io/NewTab_Academy_Projeto_Individual/">https://edijunior88.github.io/NewTab_Academy_Projeto_Individual/</a>
+
+<hr>
+
+<h3>Tecnologias Utilizadas</h3>
+
+Para ver todas as tecnologias [clique aqui](/techstack.md)
 
 <hr>
 
@@ -115,3 +121,7 @@ Seu objetivo é criar uma SPA (Single Page Application) seguindo o layout que es
     <li>Funcionalidade de limpar dados</li>
   </ul>
 </ul>
+
+<hr>
+
+<h4><b>Status do projeto:</b> ✅ Concluído</h4>
